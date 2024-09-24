@@ -1,0 +1,52 @@
+[
+  {
+    "path": "/",
+    "title": "Video for What?",
+    "dropdown": [
+      {
+        "path": "/podcast",
+        "title": "Podcast"
+      },
+      {
+        "path": "/youtube",
+        "title": "Youtube"
+      },
+      {
+        "path": "/tiktok",
+        "title": "TikTok"
+      },
+      {
+        "path": "/agency",
+        "title": "Agency"
+      },
+      {
+        "path": "/media",
+        "title": "Media Company"
+      },
+      {
+        "path": "/Startups",
+        "title": "Startup"
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "title": "How much you can save?"
+  },
+  {
+    "path": "/#pricing",
+    "title": "Pricing"
+  },
+  {
+    "path": "/about",
+    "title": "About"
+  },
+  {
+    "path": "/guides",
+    "title": "Guides"
+  },
+  {
+    "path": "/#faqs",
+    "title": "FAQ"
+  }
+]

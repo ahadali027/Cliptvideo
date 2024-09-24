@@ -1,0 +1,7 @@
+
+@media screen and (max-width : 768px) {
+    .about-page div.max-w-4xl{
+        padding-inline: 0;
+    }
+    
+}

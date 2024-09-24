@@ -1,0 +1,86 @@
+.who-client-card {
+  transition: 500ms all;
+}
+
+.who-client-card:has(+ *:hover) {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:has(+ * + *:hover) {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:has(+ * + * + *:hover) {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:has(+ * + * + * + *:hover) {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:has(+ * + * + * + * + *:hover) {
+  scale: 0.9;
+  opacity: 60%;
+}
+
+/* Bottom */
+
+.who-client-card:hover + * {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:hover + * + * {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:hover + * + * + * {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:hover + * + * + * + * {
+  scale: 0.9;
+  opacity: 60%;
+}
+.who-client-card:hover + * + * + * + * + * {
+  scale: 0.9;
+  opacity: 60%;
+}
+
+.who-client-card:hover .bg-btn-hover {
+  --opacity: 0.3;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, var(--opacity)),
+      rgba(0, 0, 0, var(--opacity))
+    ),
+    linear-gradient(
+      to right,
+      #ff7979,
+      #fdb48c,
+      #fff08e,
+      #af8,
+      #99e9ff,
+      #99baff,
+      #889dff,
+      #c780ff,
+      #ff7979
+    );
+  background-size: cover, 100% 100%;
+  transition: 1s all;
+
+  animation: runGradient 2s ease infinite;
+}
+
+@keyframes runGradient {
+   
+        0% {
+            background-position: cover, 0% 50%;
+        }
+        50% {
+            background-position: cover, 100% 50%;
+        }
+        100% {
+            background-position: cover, 0% 50%;
+        }
+    
+}
