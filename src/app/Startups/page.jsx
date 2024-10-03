@@ -7,6 +7,7 @@ function page() {
     <div>
         <Heading/>
         <Startups/>
+        <p>HEllo</p>
     </div>
   )
 }
